@@ -19,7 +19,7 @@ cxx_compiler_version:
 flatbuffers:
 - 24.12.23
 libboost_headers:
-- '1.88'
+- '1.90'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 mpi:

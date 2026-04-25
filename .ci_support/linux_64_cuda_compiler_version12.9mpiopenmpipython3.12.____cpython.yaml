@@ -19,7 +19,7 @@ docker_image:
 flatbuffers:
 - 25.9.23
 libboost_headers:
-- '1.88'
+- '1.90'
 mpi:
 - openmpi
 mpich:
