@@ -21,7 +21,7 @@ source:
     - use_nvcc_gencode.patch
 
 build:
-  number: 21
+  number: 22
   skip: true  # [win]
   # pytorch/tensorflow builds in conda-forge are 12+ only
   skip: true  # [cuda_compiler_version in ("11.8",)]
