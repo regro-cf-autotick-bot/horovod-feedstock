@@ -1,7 +1,7 @@
 c_stdlib:
 - sysroot
 c_stdlib_version:
-- '2.17'
+- '2.28'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -9,7 +9,7 @@ channel_targets:
 cuda_compiler:
 - cuda-nvcc
 cuda_compiler_version:
-- None
+- '13.0'
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -23,7 +23,7 @@ libabseil:
 libboost_headers:
 - '1.90'
 mpi:
-- mpich
+- openmpi
 mpich:
 - '5'
 nccl:
@@ -35,7 +35,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.10.* *_cpython
+- 3.14.* *_cp314
 pytorch:
 - '2.12'
 target_platform:
